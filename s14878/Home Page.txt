@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> My Personal Web Page</title>
+<style>
+body {
+  background-image: url('./image/backg3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+}
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  color: white;
+  border: 2px;
+  outline: 2px;
+  padding: 11px;
+  background-color: #555;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  #04AA6D;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="Education.html"><i class="fa fa-fw fa-book"></i> Education</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Subject
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Physics.html">Physics</a>
+      <a href="Statistics.html">Statistics</a>
+      <a href="Apllied Mathes.html">Apllied Mathes</a>
+      <a href="Computer Science.html">Computer Science</a>
+    </div>
+  </div>
+
+  <a href="Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="Login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="Search.html"><i class="fa fa-fw fa-search"></i> Search</a> 
+
+</div>
+
+<p align="center"><font type="times" size="16" color="#FF0000"><b><marquee><u> Welcome to My Profile Page </u></marquee> </b></font></p> 
+<br  />
+<p align="center"><font type="times" size="14" color="#0000FF"><b> Vidumina Rathnayake </b></font></p> 
+
+<hr width="50%" align="center" color="black"><br>
+
+<p align="center"><img src="https://lh3.googleusercontent.com/ulPp-0ZYjfpSsGzXVL4IxkpB-c1K_fWjurdjh6qc2oSIGKAElgGKSf9VxvNn1TOmd6-Q6dIv3FQ9aU1Tr-Wv8Tx628nLCrc4vfbYsyWL5AODPtRXV6tB35SKwHXCgeBFoHgKhEt9" width="18%"/></p>
+
+<br>
+<p><font type="times" size="10" color="black"><i> Personal Profile </i></font></p>
+<hr width="100%" align="center" color="black"><br>
+
+<table cellpadding="3" cellspacing="5">
+
+<tr>
+<td><b> Full Name </b></td>
+<td> : </td>
+<td> Rathnayake Mudiyanselage Vidumina Chandra Rathnayake </td>
+
+<tr>
+<td> <b> Name with Initials </b> </td>
+<td> : </td>
+<td> R.M.V.C.Rathnayake </td>
+</tr> 
+
+<tr>
+<td> <b> Address </b> </td>
+<td> : </td>
+<td> 294, Minuwangoda Rd, Asgiriya, Gampaha.</td>
+</tr>
+
+<tr>
+<td> <b> Date Of Birth </b> </td>
+<td> : </td>
+<td> 14<sup>th</sup> of September 1998</td>
+</tr>
+
+<tr>
+<td> <b> Occupation </b> </td>
+<td> : </td>
+<td> Undergraduate </td>
+</tr>
+
+<tr>
+<td> <b> University </b> </td>
+<td> : </td>
+<td> University of Colombo </td>
+</tr>
+
+<tr>
+<td> <b> Academic Year </b> </td>
+<td> : </td>
+<td> 2<sup>nd </sup> Year </td>
+</tr>
+
+<tr>
+<td> <b> Registration Number </b> </td>
+<td> : </td>
+<td> 2019s17528 </td>
+</tr>
+
+<tr>
+<td> <b> Index Number </b> </td>
+<td> : </td>
+<td> s14878 </td>
+</tr>
+
+<tr>
+<td> <b> Mobile </b> </td>
+<td> : </td>
+<td> 0768013609 </td>
+</tr>
+
+<tr>
+<td> <b> E-mail </b> </td>
+<td> : </td>
+<td> 2019s17528@stu.cmb.ac.lk </td>
+</tr>
+</table> 
+
+
+<br>
+ 
+
+<p><font type="times" size="10" color="black"><i> Professional Qualification </i> </font></p>
+<hr width="100%" align="center" color="black"><br>
+
+<ul type="square">
+
+<li> Successfully Completed Diploma in Infomation Technology at Nenasala High Education Center Gampaha </li> <br>
+
+<li>  Successfully Completed Diploma in English at <abbr title="Institute of Human Resource Advancement">IHRA</abbr> in University of Colombo </li>
+</ul>
+
+
+</body>
+</html>
